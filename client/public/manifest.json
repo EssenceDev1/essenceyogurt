@@ -1,0 +1,51 @@
+{
+  "name": "Essence Yogurt",
+  "short_name": "Essence",
+  "description": "Luxury self-serve frozen yogurt experience. Premium soft-serve with 24/7 AI-powered operations.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFDF5",
+  "theme_color": "#D4AF37",
+  "orientation": "any",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["food", "lifestyle", "shopping"],
+  "screenshots": [],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "shortcuts": [
+    {
+      "name": "View Flavors",
+      "short_name": "Flavors",
+      "url": "/flavours",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Find Locations",
+      "short_name": "Locations",
+      "url": "/locations",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "VIP Rewards",
+      "short_name": "Rewards",
+      "url": "/loyalty",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "lang": "en",
+  "dir": "auto"
+}
